@@ -83,9 +83,6 @@ function SWEP:PostDrawViewModel(vm)
 	end
 end
 //These two functions appear to be necessary now in order for the swep to properly hide viewmodels.
-//While you're here, a quick request: I'm having a bit of trouble figuring out how to edit WElements in the code.
-//It works fine for the owner of the swep in both 1st and 3rd person modes, but displays unchanged for all other players.
-//If you could include an example weapon on how to do this inside the addon (Assuming you still have any that would work) that would be excellent.
 
 if CLIENT then
 
